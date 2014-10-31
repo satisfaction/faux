@@ -1,0 +1,32 @@
+{
+  "name": "faux",
+  "version": "0.0.1",
+  "copyright": "Copyright (c) 2014 Get Satisfaction Inc. All rights reserved.",
+  "authors": [
+    "Ivan Torres <mexpolk@gmail.com>"
+  ],
+  "description": "Ajax call mocking/interceptor",
+  "keywords": [
+    "ajax",
+    "mock",
+    "testing"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/satisfaction/faux.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satisfaction/faux.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jquery": "~2.1.1",
+    "mocha": "~2.0.1"
+  }
+}
