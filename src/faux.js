@@ -81,7 +81,7 @@
     post: function(url, data) {
       this.scope.type = 'post';
       this.scope.url = url;
-      this.scipe.data = data || {};
+      this.scope.data = data;
       return this;
     },
 
