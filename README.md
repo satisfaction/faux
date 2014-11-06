@@ -13,7 +13,7 @@ bower install https://github.com/satisfaction/faux.git
 ### Mocking an Ajax Call
 
 ```javascript
-var mock = faux.get(/\/conversations\/search/).reply({
+var mock = faux.get(/\/conversations\/search/).success(200, {
   total: 1,
   total_pages: 1,
   current_page: 1,
